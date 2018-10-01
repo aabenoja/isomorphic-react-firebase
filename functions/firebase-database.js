@@ -17,7 +17,7 @@
 // Client and Server Data Fetching Logic
 
 // Import the Firebase base SDK.
-const firebase = require('firebase/app');
+const firebase = require('firebase/app').default;
 // Load the Firebase database module.
 // Here you should load all modules of Firebase that you need.
 require('firebase/database');
